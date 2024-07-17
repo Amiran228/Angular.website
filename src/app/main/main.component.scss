@@ -1,0 +1,118 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  mat-expansion-panel{
+    margin: 20px;
+  }
+  .all {
+    display: flex;
+    justify-content: space-between;
+    mat-card-title {
+      font-size: 16px; /* Размер текста заголовка */
+      margin-bottom: 5px;
+    }
+  
+    .main-block {
+      display: flex;
+      flex-direction: column;
+      flex: 1; 
+      margin-right: 10px;
+  
+      mat-card {
+        margin: 10px;
+      }
+    }
+  
+    .second-block {
+      flex: 2;
+      width: 100px;
+      margin: 10px;
+      
+      mat-accordion {
+        margin: 20px;
+      }
+    }
+  }
+
+  mat-form-field {
+    width: 100%; 
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .left, .right {
+    flex: 1; 
+    margin: 10px; 
+    mat-form-field {
+      width: 80%;
+      margin: 10px; 
+    }
+  }
+  .left{
+    mat-card-title{
+      margin: 8px;
+    }
+  }
+  .lvl {
+    display: flex; 
+    align-items: center; 
+    mat-form-field {
+      margin: 0 5px; 
+      width: 93px; 
+    }
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    font-size: 10px; 
+    padding: 5px; 
+  }
+  
+  .lvl p {
+    margin: 40px 5px; 
+  }
+  
+
+  
+  
+  .page{
+    height: 400px;  
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  .stretch-button {
+    flex-grow: 1; 
+    margin: 0 10px; 
+  } 
+  .button{
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: auto;
+  }
+  .accordion-content {
+    display: none; /* Изначально скрываем содержимое */
+    padding: 10px;
+  }
+  
+  .accordion-btn.active {
+    background-color: #ccc; /* Применяем стили для активной кнопки */
+  }
+  
+  .accordion-content.active {
+    display: block; /* Отображаем содержимое при активации */
+  }
+  .input{
+
+      font-size: 10px; /* Пример размера шрифта */
+      padding: 5px; /* Пример внутреннего отступа */
+
+  }

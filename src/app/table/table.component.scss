@@ -1,0 +1,27 @@
+.table-container {
+    display: flex;
+    padding: 10px;
+  }
+  
+  table {
+    width: 80%;
+    table-layout: fixed;
+  }
+    
+  .buttons {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+  }
+
+  .stretch-button {
+    flex-grow: 1; 
+    margin: 0 10px; 
+  } 
+  .button{
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: auto;
+  }
